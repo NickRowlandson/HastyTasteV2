@@ -1,0 +1,196 @@
+﻿html {
+  position: relative;
+  min-height: 100%;
+      background-image: url(/Assets/images/wood-pattern-ground-parquet-floor.jpg);
+
+    background-repeat: repeat-y;
+    color: #fff;
+}
+body {
+    padding-top: 80px;
+    background-color: transparent;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.contact-map{
+    width: 450px;
+    height: 500px;
+    display: block;
+    float: left;
+}
+
+.social-media{
+    width: 450px;
+    height: 500px;
+    display:block;
+    float: right;
+    margin-right: 30px;
+}
+.social-media a{
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+.spacer{
+    width: 100%;
+    height: 50px;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(/Assets/images/sandwich2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 1px 20px 7px #010101;
+}
+.banner-image{
+    height:375px;
+    width: 475px;
+    padding: 25px;
+}
+.banner-text{
+    background-color: rgba(0,0,0,0.50);
+    transition: ease-in-out background-color 0.5s;
+    margin-top: 150px;
+    margin:100px;
+    height: 140px;
+    width: 500px;
+    display:block;
+    float: right;
+    border-radius: 70px 90px 0px 70px;
+}
+.banner-text:hover {
+    background-color: rgba(0,0,0,0.80);
+    transition: ease-in-out background-color 0.5s;
+}
+.banner-text b {
+    float: right;
+    margin-top:10px;
+}
+.banner-text p{
+    margin: 40px;
+    font-size: 18px;
+}
+.home{
+    display:block;
+    float: left;
+}
+
+.menu-container{
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px;
+    color: #fff;
+}
+.strip1 .container h1{
+    color: #fff;
+}
+.strip1 .container p{
+    color: #fff;
+}
+.superbutton{
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,0.1);
+    color:#fff;
+}
+
+.superbutton:hover{
+    text-decoration: none;
+    transition:ease-in background-color 0.3s;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+}
+.content-holder{
+    display:block;
+    float: left;
+}
+.image-holder{
+    display: block;
+    float: right;
+    box-shadow: 5px 5px 8px 3px #000;
+    
+}
+.image-holder img{
+    height: 320px;
+    width: 400px;
+}
+.logo-container{
+    display:block;
+    float: left;
+    margin:5px;
+}
+.logo-container img{
+    height: 70px;
+    width: auto;
+    border-radius:25px;
+}
+.nav li a{
+    font-size: 20px;
+    margin: 10px;
+}
+.nav-icon{
+    display:block;
+    float:left;
+    padding-top: 15px;
+    padding-right:15px;
+}
+.nav li{
+    width: 150px;
+}
+
+span{
+    color:#fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 20px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+      background-color: rgba(0,0,0,0.3);
+      
+  margin-top:-60px;
+}
+.table-hover > tbody > tr:hover {
+    background-color: rgba(0,0,0,0.8);
+    transition: ease-in-out background-color 0.3s;
+}
+.table-hover > tbody > tr {
+    background-color: rgba(0,0,0,0.3);
+    transition: ease-in-out background-color 0.3s;
+}
+.contact{
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 100px;
+}
+.navbar{
+    background-color: rgba(14,11,11,0.8);
+}
