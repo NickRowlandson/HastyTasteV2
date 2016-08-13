@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
+//Test
+
 namespace COMP2007_FinalProject_HastyTaste.Models
 {
     public class ExternalLoginConfirmationViewModel
