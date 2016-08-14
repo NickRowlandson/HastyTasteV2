@@ -12,7 +12,10 @@ namespace COMP2007_FinalProject_HastyTaste.Models
         {
         }
 
-        public virtual DbSet<MenuItem> MenuItems { get; set; }
+        public virtual DbSet<MenuItem> MenuItems { get; set;}
+        public virtual DbSet<Cart> Carts { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 
     }
 }
