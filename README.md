@@ -28,19 +28,19 @@ Hasty Taste is a restuarant website that has a home page, contact page, menu, lo
 
 ## 6. Website Layout
 ### -Home Page-
-![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/home.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/blob/master/COMP2007-FinalProject-HastyTaste/Document_Images/home.png)
 
 ### -Menu Page-
-![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/menu.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/blob/master/COMP2007-FinalProject-HastyTaste/Document_Images/menu.png)
 
 ### -Item Details Page-
-![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/details.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/blob/master/COMP2007-FinalProject-HastyTaste/Document_Images/details.png)
 
 ### -Contact Page-
-![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/contact.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/blob/master/COMP2007-FinalProject-HastyTaste/Document_Images/contact.png)
 
 ### -Login Page-
-![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/login.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/blob/master/COMP2007-FinalProject-HastyTaste/Document_Images/login.png)
 
 ### -Register Page-
-![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/register.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/blob/master/COMP2007-FinalProject-HastyTaste/Document_Images/register.png)
