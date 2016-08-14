@@ -12,7 +12,7 @@ Hasty Taste Layouts (External Documentation)
 
 ## 1. Site Name / Domain
 #### Site Name: HastyTaste
-#### Live:  [Click here to view the latest stable version.](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste)
+#### Live:  [Click here to view the latest stable version.](http://hastetaste.azurewebsites.net)
 
 ## 2. Compatibility
 Works on main browsers: Mozilla, Edge, Chrome, Safari, and IE.
