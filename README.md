@@ -28,16 +28,19 @@ Hasty Taste is a restuarant website that has a home page, contact page, menu, lo
 
 ## 6. Website Layout
 ### -Home Page-
-![alt tag]()
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/home.png)
+
+### -Menu Page-
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/menu.png)
+
+### -Item Details Page-
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/details.png)
+
+### -Contact Page-
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/contact.png)
 
 ### -Login Page-
-![alt tag]()
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/login.png)
 
-### -Admin Page-
-![alt tag]()
-
-### -Manage Game Page-
-![alt tag]()
-
-### -Add Game Page-
-![alt tag]()
+### -Register Page-
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/Document_Images/register.png)
