@@ -23,6 +23,9 @@ namespace COMP2007_FinalProject_HastyTaste
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/shoppingCart").Include(
+                    "~/Scripts/app.js"
+                ));
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/font-awesome.css",
