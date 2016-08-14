@@ -18,7 +18,7 @@ Hasty Taste Layouts (External Documentation)
 Works on main browsers: Mozilla, Edge, Chrome, Safari, and IE.
 
 ## 3. Team Logo:
-![alt tag](COMP2007-FinalProject-HastyTaste/COMP2007-FinalProject-HastyTaste/Assets/images/logo.png)
+![alt tag](https://github.com/NickRowlandson/COMP2007-FinalProject-HastyTaste/COMP2007-FinalProject-HastyTaste/Assets/images/logo.png)
 
 ## 4. Team Members:
 Nick Rowlandson & Tim Harasym
