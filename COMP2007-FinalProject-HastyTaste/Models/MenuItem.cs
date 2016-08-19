@@ -8,7 +8,7 @@ using System.Collections;
 
 namespace COMP2007_FinalProject_HastyTaste.Models
 {
-    [Table("menuitems")]
+    [Table("MenuItem")]
     public class MenuItem
     {
         /// <summary>

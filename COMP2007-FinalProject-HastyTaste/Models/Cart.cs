@@ -15,6 +15,7 @@ namespace COMP2007_FinalProject_HastyTaste.Models
         public virtual string CartId { get; set; }
         public virtual int Count { get; set; }
         public virtual System.DateTime DateCreated { get; set; }
+        [ForeignKey("MenuItem")]
         public virtual int ItemId { get; set; }
         public virtual MenuItem MenuItem { get; set; }
 
