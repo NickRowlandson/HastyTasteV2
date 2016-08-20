@@ -8,7 +8,7 @@
         <h3>
             <em>Review</em> your cart:
         </h3>
-        <p class="button">
+        <p class="superbutton">
             @Html.ActionLink("Checkout >>", "AddressAndPayment", "Checkout")
         </p>
         <div id="update-message">
@@ -40,11 +40,13 @@
                         @item.Count
                     </td>
                     <td>
-                        <a href="#" class="RemoveLink"
-                           data-id="@item.RecordId">
-                            Remove
-                            from cart
-                        </a>
+                        <p class="minibutton">
+                            <a href="#" class="RemoveLink"
+                               data-id="@item.RecordId">
+                                Remove
+                                from cart
+                            </a>
+                        </p>
                     </td>
                 </tr>
             }
@@ -59,8 +61,8 @@
                 </td>
             </tr>
         </table>
-        <a href="@Url.Action("../MenuItems/Index")" class="btn btn-default" title="Back to menu">
-            <i class="fa fa-arrow-left"></i> Back to Menu
-        </a>
+            <a href="@Url.Action("../MenuItems/Index")" class="superbutton" title="Back to menu">
+                <i class="fa fa-arrow-left"></i> Back to Menu
+            </a>
     </div>
 </div>

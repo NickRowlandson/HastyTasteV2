@@ -14,7 +14,6 @@
             <dd>
                 <img src="~/Assets/images/@Html.DisplayFor(model => model.ItemImage)" style="width:60%;"/>
             </dd>
-            <hr />
             <dt>
                 @Html.DisplayNameFor(model => model.Description)
             </dt>
@@ -30,14 +29,13 @@
             <dd>
                 $@Html.DisplayFor(model => model.Price)
             </dd>
-            <dd class="button">
-                @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = Model.ID }, "")
-            </dd>
+            
         </dl>
     </div>
-    <p>
-        <a href="@Url.Action("Index")" class="btn btn-default" title="Back to menu">
+        <a href="@Url.Action("Index")" class="superbutton" title="Back to menu">
             <i class="fa fa-arrow-left"></i> Back to Menu
         </a>
-    </p>
+        <div class="superbutton">
+            @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = Model.ID }, "")
+        <div/>
 </div>
