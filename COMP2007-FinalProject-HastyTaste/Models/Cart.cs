@@ -6,6 +6,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Collections;
 
+/**
+ * @author: Nick Rowlandson & Tim Harasym
+ * @description: Final Assignment - MVC Restaurant with Cart
+ * @date: August 19 2016
+ * @version: 0.0.3 
+ */
 namespace COMP2007_FinalProject_HastyTaste.Models
 { 
     public class Cart

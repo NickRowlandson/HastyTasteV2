@@ -7,11 +7,10 @@ using COMP2007_FinalProject_HastyTaste.Models;
 
 /**
  * @author: Nick Rowlandson & Tim Harasym
- * @description: Assignment 2 - MVC Restaurant
- * @date: August 1st 2016
- * @version: 0.0.1 
+ * @description: Final Assignment - MVC Restaurant with Cart
+ * @date: August 19 2016
+ * @version: 0.0.3 
  */
-
 namespace COMP2007_FinalProject_HastyTaste.Controllers
 {
     public class HomeController : Controller

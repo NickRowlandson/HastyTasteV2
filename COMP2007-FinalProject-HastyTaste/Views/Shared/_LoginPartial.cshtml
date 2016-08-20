@@ -1,4 +1,10 @@
-﻿@using Microsoft.AspNet.Identity
+﻿<!--
+    Author's name: Nicholas Rowlandson & Tim Harasym
+    Date  Modified: Thursday, August 19th, 2016
+    Version: 0.0.3
+    File: _LoginPartial.cshtml
+-->
+@using Microsoft.AspNet.Identity
 @if (Request.IsAuthenticated)
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))

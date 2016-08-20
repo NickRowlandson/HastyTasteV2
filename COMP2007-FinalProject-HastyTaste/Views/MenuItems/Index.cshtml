@@ -1,4 +1,10 @@
-﻿@using COMP2007_FinalProject_HastyTaste.Models
+﻿<!--
+    Author's name: Nicholas Rowlandson & Tim Harasym
+    Date  Modified: Thursday, August 19th, 2016
+    Version: 0.0.3
+    File: Index.cshtml
+-->
+@using COMP2007_FinalProject_HastyTaste.Models
 @model IEnumerable<MenuItem>
 
 @helper Truncate(string input, int length)
@@ -16,59 +22,56 @@ else
 @{
     ViewBag.Title = "Menu";
 }
+<div class="spacer"></div>
+<div class="container">
+    <div class="menu-container">
+        <h2>Menu</h2>
 
-
-
-    <div class="spacer"></div>
-    <div class="container">
-        <div class="menu-container">
-            <h2>Menu</h2>
-
-        <!--   
+        <!--
         <p>
             @Html.ActionLink("Create New", "Create")
         </p>
         -->
 
-            <table class="table table-responsive table-hover">
+        <table class="table table-responsive table-hover">
 
-                @foreach (var item in Model)
+            @foreach (var item in Model)
             {
-                    <tr>
-                        <td>
-                            <a href='@Url.Action("Details", "MenuItems", new { id = item.ID })'>
-                                <img src="~/Assets/thumbs/@item.ItemThumbnail" />
-                            </a>
-                        </td>
-                        <td>
-                            <strong>@Html.DisplayFor(modelItem => item.Title)</strong>
-                        </td>
+                <tr>
+                    <td>
+                        <a href='@Url.Action("Details", "MenuItems", new { id = item.ID })'>
+                            <img src="~/Assets/thumbs/@item.ItemThumbnail" />
+                        </a>
+                    </td>
+                    <td>
+                        <strong>@Html.DisplayFor(modelItem => item.Title)</strong>
+                    </td>
 
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Description)
-                        </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
 
-                        <td>
-                            <strong>$@Html.DisplayFor(modelItem => item.Price)</strong>
-                        </td>
+                    <td>
+                        <strong>$@Html.DisplayFor(modelItem => item.Price)</strong>
+                    </td>
 
-                        <td>
-                        <!--    
+                    <td>
+                        <!--
                         @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
                         @Html.ActionLink("Delete", "Delete", new { id = item.ID })
                         -->
-                            <a href="@Url.Action("Details", new { id = item.ID })" class="superbutton" title="Details">
-                                <i class="fa fa-plus"></i> Details
-                            </a>
-                        </td>
-                        <td>
-                            <a href="@Url.Action("AddToCart", "ShoppingCart", new { id = item.ID })" class="superbutton" title="Add Item">
-                                <i class="fa fa-shopping-cart"></i> Add Item
-                            </a> 
-                        </td>
-                    </tr>
-                }
+                        <a href="@Url.Action("Details", new { id = item.ID })" class="superbutton" title="Details">
+                            <i class="fa fa-plus"></i> Details
+                        </a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("AddToCart", "ShoppingCart", new { id = item.ID })" class="superbutton" title="Add Item">
+                            <i class="fa fa-shopping-cart"></i> Add Item
+                        </a>
+                    </td>
+                </tr>
+            }
 
-            </table>
-        </div>
+        </table>
     </div>
+</div>

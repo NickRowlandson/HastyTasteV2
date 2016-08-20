@@ -4,6 +4,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
+/**
+ * @author: Nick Rowlandson & Tim Harasym
+ * @description: Final Assignment - MVC Restaurant with Cart
+ * @date: August 19 2016
+ * @version: 0.0.3 
+ */
 namespace COMP2007_FinalProject_HastyTaste.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.

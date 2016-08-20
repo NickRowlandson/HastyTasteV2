@@ -1,3 +1,9 @@
+/**
+ * @author: Nick Rowlandson & Tim Harasym
+ * @description: Final Assignment - MVC Restaurant with Cart
+ * @date: August 19 2016
+ * @version: 0.0.3 
+ */
 namespace COMP2007_FinalProject_HastyTaste.Models
 {
     using System;
