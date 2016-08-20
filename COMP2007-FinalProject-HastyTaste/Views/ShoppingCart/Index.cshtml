@@ -8,9 +8,7 @@
         <h3>
             <em>Review</em> your cart:
         </h3>
-        <p class="superbutton">
-            @Html.ActionLink("Checkout >>", "AddressAndPayment", "Checkout")
-        </p>
+        
         <div id="update-message">
         </div>
         <table>
@@ -64,5 +62,8 @@
             <a href="@Url.Action("../MenuItems/Index")" class="superbutton" title="Back to menu">
                 <i class="fa fa-arrow-left"></i> Back to Menu
             </a>
+            <p class="superbutton">
+                @Html.ActionLink("Checkout >>", "AddressAndPayment", "Checkout")
+            </p>
     </div>
 </div>
